@@ -16,9 +16,9 @@ const Navbar = () => {
       };
 
   return (
-    <div className='wrapper'>
-        <div className="container">
-            <div className="main">
+    <div className='nav-wrapper'>
+        <div className="nav-container">
+            <div className="nav-main">
                 <div className="left">
                     {/* <Lottie options={defaultOptions} height={30} width={30} /> */}
                     <div className="left-title">Taskmate</div>

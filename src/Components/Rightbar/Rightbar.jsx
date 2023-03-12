@@ -1,9 +1,15 @@
 import React from 'react'
-import './Assets/Rightbar.css'
+import './Assets/Rightbar.scss'
 
 const Rightbar = () => {
   return (
-    <div>Rightbar</div>
+    <div className='rightbar-wrapper'>
+        <div className="rightbar-container">
+            <div className="rightbar-main">
+
+            </div>
+        </div>
+    </div>
   )
 }
 

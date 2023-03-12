@@ -1,7 +1,20 @@
-.App {
-  text-align: center;
+:root{
+  --primary-color: #fff;
+  --secondary-color:#9333EA;
+  --primary-color-50:#ffffff91;
 }
 
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bottom-container{
+  display: flex;
+  gap: 10px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

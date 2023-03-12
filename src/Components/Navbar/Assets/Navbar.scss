@@ -4,30 +4,27 @@
     box-sizing: border-box;
 }
 
-:root{
-    --primary-color: #fff;
-    --secondary-color:#9333EA;
-}
+
 
 html{
     background: linear-gradient(299.75deg, #B9D5FF 0%, #F6D1FC 98.93%);;
 }
-.wrapper{
+.nav-wrapper{
     width: 100vw;
     display: flex;
     justify-content: center;
 
-    .container{
+    .nav-container{
         background-color: var(--primary-color);
         height: 10vh;
         border-radius: 10px;
-        width: 90vw;
+        width: 70vw;
         margin-top: 2vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .main{
+    .nav-main{
         display: flex;
         justify-content: space-around;
         align-items: center;
