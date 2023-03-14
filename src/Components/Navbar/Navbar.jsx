@@ -1,6 +1,5 @@
 import React from 'react'
 import './Assets/Navbar.scss'
-import Lottie from 'react-lottie';
 import checklist from './Assets/check-list.json';
 import darkmode from './Assets/darkmode.svg'
 import profile from './Assets/profile.svg'
