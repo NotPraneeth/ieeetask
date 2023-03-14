@@ -9,4 +9,11 @@
     background: var(--primary-color);
     height: 80vh;
     border-radius: 10px;
+
+    .rightbar-main{
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        padding-top: 5vh;
+    }
 }
